@@ -21,15 +21,15 @@ This is a Spring Boot application for processing receipts and calculating points
 
 Access the application:
 
--Once the container is running, you can access the application using the following endpoints:
+Once the container is running, you can access the application using the following endpoints:
 
-- Process Receipt:
+**Process Receipt:**
 - URL: http://localhost:8080/receipts/process
 - Method: POST
 - Body: JSON payload
 
 
-- Get Points:
+**Get Points:**
 - URL: http://localhost:8080/receipts/{id}/points
 - Method: GET
 - Replace {id} with the actual receipt ID returned from the POST /receipts/process endpoint.
