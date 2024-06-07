@@ -33,5 +33,5 @@ Once the container is running, you can access the application using the followin
 **Get Points:**
 - URL: http://localhost:8080/receipts/{id}/points
 - Method: GET
-- Replace {id} with the actual receipt ID returned from the POST /receipts/process endpoint.
+- Replace {id} with the actual receipt ID returned from the POST /receipts/process endpoint, without using quotations.
 
