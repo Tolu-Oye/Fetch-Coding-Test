@@ -15,7 +15,7 @@ This is a Spring Boot application for processing receipts and calculating points
    
 2. **Use Docker Compose** to build the Docker image and run the container with `docker-compose up --build`.
 
-- cd receiptprocessor
+- cd Fetch-Coding-Test\receiptprocessor
 - docker-compose up --build
   
 3. **Access the application** via `http://localhost:8080` using Postman or any other HTTP client
